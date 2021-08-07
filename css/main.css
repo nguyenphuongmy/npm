@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+.bg
+{
+    width: 100%;
+    height: 3890px;
+    background-color: white;
+}
+.menu
+{
+    width: 100%;
+    height: 70px;
+    background-color: palevioletred;
+}
+.menu01
+{ 
+    float: left;
+    width: 20%;
+    height: 70px;
+    background-color:deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu02
+{
+    float: right;
+    width: 80%;
+    height: 70px;
+    background-color:palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu02 ul
+{
+    list-style: none;
+    padding: 0;
+}
+.menu02 ul li 
+{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    padding: 26px;
+    float: left;
+    display: inline;
+    margin: 10px;
+    position: relative;
+}
+.menu02 ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.menu02 ul li:hover
+{
+    border-bottom: 4px solid #FC859F;
+}
+.menu02 ul li ul
+{
+    position: absolute;
+    top: 70px;
+    left: -23px;
+    visibility: hidden;
+}
+.menu02 ul li ul li
+{
+    width: 150px;
+   
+}
+.menu ul li:hover ul
+{
+    visibility: visible;
+    background-color:pink;
+}
+.h01
+{
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+
+.gtt
+{
+    width: 100%;
+    height: 500px;
+    background-color:cyan;
+}
+.gtt1
+{
+    float: left;
+    width: 60%;
+    height:500px;
+    background-color: palevioletred;
+}
+.gtt2
+{
+    float: right;
+    width: 40%;
+    height:500px;
+    background-color: lightpink;
+}
+.gttc
+{
+    width: 60%;
+    height:320px;
+    background-color: lightpink;
+    margin: 25px 30px 20px 70px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.sale
+{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.sale01
+{
+    float: left;
+    margin: 10px 10px ;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    background-color:lightblue;
+    color: palevioletred;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b00
+{
+    width: 100%;
+    height: 220px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b01
+{
+    float: right;
+    padding: 10px;
+    margin: 10px 40px 30px 20px;
+    width: 105px;
+    height: 180px;
+    background-color: white;
+}
+.b01:hover
+{
+    width: 105px;
+    background-color: palevioletred;
+}
+.sale0
+{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+.sale02
+{
+    float: left;
+    margin: 10px 10px ;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    background-color:lightblue;
+    color: palevioletred;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b1
+{
+    width: 100%;
+    height: 240px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.b12
+{
+    float: right;
+    padding: 10px;
+    margin: 10px 40px 30px 20px;
+    width: 105px;
+    height: 200px;
+    background-color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b12:hover
+{
+    width: 105px;
+    background-color: palevioletred;
+}
+.b2
+{
+    width: 100%;
+    height: 240px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.b23
+{
+    float: right;
+    padding: 10px;
+    margin: 10px 32px 32px 45px;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b23:hover
+{
+    width: 250px;
+    background-color: palevioletred;
+}
+.b3
+{
+    width: 100%;
+    height: 240px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.b34
+{
+    float: right;
+    padding: 10px;
+    margin: 10px 40px 30px 20px;
+    width: 105px;
+    height: 200px;
+    background-color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b34:hover
+{
+    width: 105px;
+    background-color: palevioletred;
+}
+.b4
+{
+    width: 100%;
+    height: 240px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.b45
+{
+    float: right;
+    padding: 10px;
+    margin: 10px 40px 30px 20px;
+    width: 105px;
+    height: 200px;
+    background-color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b45:hover
+{
+    width: 105px;
+    background-color: palevioletred;
+}
+.b5
+{
+    width: 100%;
+    height: 240px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.b56
+{
+    float: right;
+    padding: 10px;
+    margin: 10px 32px 32px 45px;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b56:hover
+{
+    width: 250px;
+    background-color: palevioletred;
+}
+.b6
+{
+    width: 100%;
+    height: 240px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.b67
+{
+    float: right;
+    padding: 10px;
+    margin: 10px 40px 30px 20px;
+    width: 105px;
+    height: 200px;
+    background-color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b67:hover
+{
+    width: 105px;
+    background-color: palevioletred;
+}
+.b8
+{
+    width: 100%;
+    height: 240px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.b89
+{
+    float: right;
+    padding: 10px;
+    margin: 10px 40px 30px 20px;
+    width: 105px;
+    height: 200px;
+    background-color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.b89:hover
+{
+    width: 105px;
+    background-color: palevioletred;
+}
+.h02
+{
+    width: 100%;
+    height: 250px;
+    background-color: lightgrey;
+}
+.dc
+{
+    width: 100%;
+    height: 220px;
+    background-color: lightpink;
+}
+.dc1
+{
+    width: 50%;
+    height: 210px;
+    background-color: lightgrey;
+    float: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+   
+}
+.dc2
+{
+    width: 50%;
+    height:210px;
+    background-color: lightgrey;
+    float: right;
+}
+.dc02
+{
+    width: 40%;
+    height:70px;
+    background-color: white;
+    float: right;
+    margin: 15px 50px ;
+} 
+
+
+
+
